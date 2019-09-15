@@ -1,0 +1,93 @@
+/* Fonts */
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100px;
+	font-weight: 300;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+span {
+	font-style: italic;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px; 
+	font-style: bold;
+}
+
+p {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px; 
+}
+
+div {font-family: 'Roboto Mono', monospace;}
+
+li {font-family: 'Roboto Mono', monospace;}
+
+ol {font-size: 18px}
+
+
+/* Color */
+
+body {background:#ccfff5;}
+
+h1 {color:#ff751a;}
+
+h2 {color: #006652;}
+
+h3 {color: #006652;}
+
+a:visited {color: #ff751a;}
+
+/* Content - Width and Weight */
+
+h1 {
+	text-align: center;
+}
+
+p {
+	margin-bottom: 2%;
+	margin-top: 0px;
+}
+
+h2 {
+	margin-bottom: 5px;
+}
+
+ol {
+	margin-top: 0px;
+}
+
+ul {
+	margin-top: 0;
+}
+
+.content {
+	margin: 0 10%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.footer {
+	margin: 0 10%;
+    margin-top: 50px;
+    border-top: 1px solid #006652;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.footer {
+	margin: 0 auto;
+    margin-top: 50px;
+    width: 530px;
+    border-top: 1px solid #006652;
+}
+}
