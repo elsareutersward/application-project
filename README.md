@@ -8,4 +8,4 @@ For the project I focused on using different elements of HTML, for exaple creati
 
 ## View it live
 
-https://youthful-noyce-298f1b.netlify.com/
+https://er-application-project.netlify.app/
